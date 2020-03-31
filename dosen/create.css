@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(create.jpg);
+    background-size: cover;
+}
+
+form {
+    position: absolute;
+    left: 460px;
+    margin: 3px;
+    background-color:  #001017;
+    border: 4px solid #003266;
+    opacity: 0.8;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 420px;
+    height: 390px;
+    top: 140px;
+    font-family: 'Vollkorn SC', serif;
+    border-radius: 25px;
+}
+
+#tambah {
+    color: white;
+    text-align: center;
+    top: 20px;
+}
+
+label {
+    margin-left: 10px;
+    color: white;
+    position: absolute;
+    left: 30px;
+}
+
+.form1 {
+    position: absolute;
+    top: 100px;
+    width: 420px;
+}
+
+option.nama {
+    padding: 9px;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #eeeeee 1px, #ffffff 25px);
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    position: absolute;
+    right: 30px;
+    color: white;
+}
+
+.nama {
+    padding: 9px;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #eeeeee 1px, #ffffff 25px);
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    position: absolute;
+    right: 30px;
+    
+}
+
+.nama:hover , #nama:focus {
+    border-color: #c9c9c9;
+    webkit-box-shadow: rgba(0,0,0,0.15) 0px 0px 8px;
+
+}
+
+.submit{
+    width: auto;
+    padding: 9px 15px;
+    background: #617798;
+    border: 0;
+    font-size: 16px;
+    color: #ffffff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    font-family: 'Mate SC', serif;
+    position: absolute;
+    top: 320px;
+    left: 310px;
+    text-decoration: none;
+}
+
+.submit:hover {
+    width: auto;
+    padding: 9px 15px;
+    background: #B80006;
+    border: 0;
+    font-size: 16px;
+    color: #ffffff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    font-family: 'Mate SC', serif;
+    position: absolute;
+    top: 320px;
+    left: 310px;
+    text-decoration: none;
+    transition: 0.3s;
+}

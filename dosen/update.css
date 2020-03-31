@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url(update.jpg); 
+    background-size: cover;
+}
+
+form {
+    position: absolute;
+    left: 460px;
+    margin: 3px;
+    background-color: #ffffff;
+    border: 4px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+    width: 400px;
+    height: 240px;
+    top: 250px;
+    font-family: 'Vollkorn SC', serif;
+    border-radius: 25px;
+}
+
+#ubah {
+    color: black;
+    position: absolute;
+    top: -10px;
+    left: 120px;
+
+}
+
+.tengah {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+#dosen {
+    position: absolute;
+    top: 130px;
+}
+
+.line-1 {
+    width: 54px;
+    height: 8px;
+    position: absolute;
+    background-color: black;
+    border-radius: 20px;
+    top: 16px;
+    left: 45px;
+}
+
+#nama {
+    padding: 9px;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+    font: normal 13px/100% Verdana, Tahoma, sans-serif;
+    width: 200px;
+    background: #ffffff;
+    background: -webkit-gradient(linear, left top, left 25, from(#ffffff), color-stop(4%, #eeeeee), to(#ffffff));
+    background: -moz-linear-gradient(top, #ffffff, #eeeeee 1px, #ffffff 25px);
+    box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+    webkit-box-shadow: rgba(0,0,0,0.1) 0px 0px 8px;
+}
+
+#nama:hover , #nama:focus {
+    border-color: #c9c9c9;
+    webkit-box-shadow: rgba(0,0,0,0.15) 0px 0px 8px;
+
+}
+
+.submit{
+    width: auto;
+    padding: 9px 15px;
+    background: #617798;
+    border: 0;
+    font-size: 14px;
+    color: #ffffff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    font-family: 'Mate SC', serif;
+}
+
+label {
+    margin-left: 10px;
+    color: black;
+}
+
+.submit:hover {
+    width: auto;
+    padding: 9px 15px;
+    background: #000000;
+    border: 0;
+    font-size: 14px;
+    color: #ffffff;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    font-family: 'Mate SC', serif;
+}
+
